@@ -23,12 +23,9 @@ const PreMain = ({ sent }) => {
         )}
       </h2>
       {sent ? (
-        <div className="sent-container" >
-          <h1>To Be Sent</h1>
-          <button>🎚️Filter</button>
-        </div>
+        <h1 className="sent-container">To Be Sent</h1>
       ) : (
-        <h1>Pending Orders</h1>
+        <h1 className="sent-container">Pending Orders</h1>
       )}
     </div>
   );
