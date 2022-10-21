@@ -48,6 +48,9 @@ a,
 Link {
   text-decoration: none;
 }
+Link h1{
+  color: black;
+}
 .dropdown-item {
   list-style: none;
   color: black;

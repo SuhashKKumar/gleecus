@@ -9,7 +9,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-left">
         <a className="nav-item">
-          <h1>hnts</h1>
+        <Link to='/'>
+        <h1>hnts</h1>
+        </Link>
         </a>
         <a className="nav-item">
           Clinical <span>🔽</span>
