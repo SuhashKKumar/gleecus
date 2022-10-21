@@ -1,0 +1,34 @@
+.premain-container{
+    margin: 3rem;
+}
+.premain-container h2{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1rem;
+}
+.premain-container h2 span:last-of-type{
+    vertical-align: middle;
+    color: #0000ff;
+}
+.premain-container h1{
+    font-size: 1.5rem;
+}
+.sent-container{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sent-container button{
+    padding: 0.4rem 2rem;
+    color: #00f;
+    background-color: white;
+    border: 1.4px solid #00f;
+    border-radius: 0.4rem;
+    transition: 350ms all ease-out;
+}
+.sent-container button:hover{
+    background-color: #00f;
+    color: #fff;
+}

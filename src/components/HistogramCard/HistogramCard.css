@@ -1,0 +1,38 @@
+.histogram-container {
+  display: inline-block;
+  width: 46.5%;
+  margin: 2rem 0 0 01rem;
+  /* margin-top: 2rem; */
+}
+
+.histogramCard {
+  display: flex;
+  padding: 0.6rem 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.7rem;
+  background-color: #efefef;
+}
+
+.histogramCard h1 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.histogramCard a {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #00f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.histogramCard-container {
+  display: flex;
+  gap: 1rem;
+}
+.histogramCard-container div h3 {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.histogramCard-container div h2 {
+  font-size: 0.8rem;
+}

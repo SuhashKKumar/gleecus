@@ -1,0 +1,20 @@
+.sentNav-container ul{
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.sentNav-container ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.3rem 1.6rem;
+    border-bottom: 3px solid rgba(0, 0, 255, 0);
+    transition: 300ms all ease-out;
+    cursor: pointer;
+}
+.sentNav-container ul li:hover, .active{
+    border-bottom: 3px solid #00f;
+    color: #00f;
+    font-weight: 600;
+}

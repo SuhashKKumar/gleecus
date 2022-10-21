@@ -1,0 +1,11 @@
+.histogramData-container{
+    background-color: white;
+    width: 42vw;
+    height: 468px;
+    padding: 1rem 3rem;
+}
+.orders-container{
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}

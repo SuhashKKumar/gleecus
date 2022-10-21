@@ -1,0 +1,22 @@
+.graph-container{
+    background-color: white;
+    width: 550px;
+    height: 501px;
+}
+.options-container{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 1rem 1rem 0 0;
+    justify-content: flex-end;
+}
+select{
+    padding: 0.3rem 2rem;
+    background-color:  rgb(223, 218, 218);
+    color: black;
+    border: none;
+    border-radius: 0.7rem;
+}
+select option{
+    /* background-color: black; */
+}

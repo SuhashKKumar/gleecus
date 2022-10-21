@@ -1,0 +1,23 @@
+.ordersAndEpisodes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0 0 3rem;
+}
+
+.small-div{
+  display: flex;
+  gap: 3.5rem;
+  background-color: #efefef;
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.small-div div h3 {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+.small-div div h2 {
+  font-size: 0.85rem;
+}
