@@ -23,8 +23,6 @@ const Table = () => {
   const onGridReady = (params) => {
     setGridApi(params.api);
     setGridColumnApi(params.columnApi);
-
-    // gridApi=params.api
     fetch("https://5b9f8640f5036f00142e4a2c.mockapi.io/v1/users")
       .then((res) => res.json())
       .then((res) => params.api.applyTransaction({ add: res }))

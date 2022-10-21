@@ -1,8 +1,8 @@
 import React from "react";
 import Histogram from "../Histogram/Histogram";
-import "./PendingOrders.css";
 import HistogramData from "../HistogramData/HistogramData";
 import PreMain from "../premain/PreMain";
+import "./PendingOrders.css";
 
 const PendingOrders = () => {
   return (

@@ -3,7 +3,7 @@ import "./HistogramCard.css";
 
 const HistogramCard = ({ name, orders, episodes, revenueOnHold, special }) => {
   return (
-    <div className="histogram-container" >
+    <div className="histogram-container">
       <div className="histogramCard">
         <h1>{name}</h1>
         <div className="histogramCard-container">

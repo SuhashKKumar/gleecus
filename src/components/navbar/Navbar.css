@@ -61,7 +61,7 @@ Link {
 @media only screen and (min-width: 1200px) {
   .dropdown-menu {
     right: 58.6% !important;
-  top: 9% !important;
+    top: 9% !important;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -105,7 +105,7 @@ Link {
   }
 }
 @media only screen and (max-width: 600px) {
-    .dropdown-menu {
+  .dropdown-menu {
     right: -10.2%;
     top: 4.5%;
     border-radius: 7px;
@@ -125,4 +125,4 @@ Link {
   .dropdown-item {
     font-size: 0.7rem;
   }
-  }
+}

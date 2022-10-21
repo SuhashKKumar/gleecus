@@ -1,45 +1,44 @@
-.histogramData-container{
-    background-color: white;
-    width: 42vw;
-    height: 468px;
-    padding: 1rem 3rem;
+.histogramData-container {
+  background-color: white;
+  width: 42vw;
+  height: 468px;
+  padding: 1rem 3rem;
 }
-.orders-container{
-    margin-top: 3rem;
-    display: flex;
-    gap: 3rem;
+.orders-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 @media only screen and (min-width: 1200px) {
-    .histogramData-container{
-        width: 42vw !important;
-        height: 510px;
-        margin-top: 0 !important;
-    }
+  .histogramData-container {
+    width: 42vw !important;
+    height: 510px;
+    margin-top: 0 !important;
   }
+}
 @media only screen and (min-width: 992px) {
-    .histogramData-container{
-        margin-top: 2rem;
-        width: 45.7vw;
-    }
-  } 
-  @media only screen and (min-width: 768px) {
-    .histogramData-container{
-        margin-top: 2rem;
-        width: 63.5vw;
-        padding: 1rem 2rem;
-    }
+  .histogramData-container {
+    margin-top: 2rem;
+    width: 45.7vw;
   }
-  @media only screen and (min-width: 600px) {
-    .histogramData-container{
-        margin-top: 2.5rem;
-        width: 80.5vw;
-        padding: 1rem 2rem;
-    }
+}
+@media only screen and (min-width: 768px) {
+  .histogramData-container {
+    margin-top: 2rem;
+    width: 63.5vw;
+    padding: 1rem 2rem;
   }
-  @media only screen and (max-width: 600px) {
-    
-    .histogramData-container{
-        margin-top: 2.5rem;
-        width: 85.5vw;
-    }
+}
+@media only screen and (min-width: 600px) {
+  .histogramData-container {
+    margin-top: 2.5rem;
+    width: 80.5vw;
+    padding: 1rem 2rem;
   }
+}
+@media only screen and (max-width: 600px) {
+  .histogramData-container {
+    margin-top: 2.5rem;
+    width: 85.5vw;
+  }
+}

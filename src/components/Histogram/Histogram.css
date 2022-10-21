@@ -1,45 +1,44 @@
-.graph-container{
-    background-color: white;
-    width: 550px;
-    height: 501px;
+.graph-container {
+  background-color: white;
+  width: 550px;
+  height: 501px;
 }
-.options-container{
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    margin: 1rem 1rem 0 0;
-    justify-content: flex-end;
+.options-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 1rem 1rem 0 0;
+  justify-content: flex-end;
 }
-select{
-    padding: 0.3rem 2rem;
-    background-color:  rgb(223, 218, 218);
-    color: black;
-    border: none;
-    border-radius: 0.7rem;
+select {
+  padding: 0.3rem 2rem;
+  background-color: rgb(223, 218, 218);
+  color: black;
+  border: none;
+  border-radius: 0.7rem;
 }
 @media only screen and (min-width: 1200px) {
-    .graph-container{
-        background-color: white;
-        width: 700px;
-        height: 541px;
-    }
+  .graph-container {
+    background-color: white;
+    width: 700px;
+    height: 541px;
   }
+}
 @media only screen and (min-width: 768px) {
-    .options-container{
-        margin-bottom: 1rem;
-        gap: 1rem;
-    }
+  .options-container {
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
 }
 @media only screen and (min-width: 600px) {
-    .options-container{
-        margin-bottom: 1rem;
-        gap: 1rem;
-    }
+  .options-container {
+    margin-bottom: 1rem;
+    gap: 1rem;
   }
-  @media only screen and (max-width: 600px) {
-    
-    .options-container{
-        margin-bottom: 1rem;
-        gap: 1rem;
-    }
+}
+@media only screen and (max-width: 600px) {
+  .options-container {
+    margin-bottom: 1rem;
+    gap: 1rem;
   }
+}

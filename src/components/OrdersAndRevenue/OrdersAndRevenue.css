@@ -1,18 +1,16 @@
-.ordersAndRevenue-container h1{
-    font-weight: 400;
-    font-size: 1rem;
+.ordersAndRevenue-container h1 {
+  font-weight: 400;
+  font-size: 1rem;
 }
-.ordersAndRevenue-container h2{
-    font-size: 1.5rem;
-    font-weight: 600;
+.ordersAndRevenue-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 @media only screen and (min-width: 992px) {
-    .ordersAndRevenue-container h1{
-        
-        font-size: 1.3rem;
-    }
-    .ordersAndRevenue-container h2{
-        font-size: 1.6rem;
-        
-    }
-  } 
+  .ordersAndRevenue-container h1 {
+    font-size: 1.3rem;
+  }
+  .ordersAndRevenue-container h2 {
+    font-size: 1.6rem;
+  }
+}
