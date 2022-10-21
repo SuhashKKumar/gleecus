@@ -63,6 +63,9 @@ Link {
     right: 58.6% !important;
     top: 9% !important;
   }
+  .navbar {
+    height: 4rem !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .dropdown-menu {
