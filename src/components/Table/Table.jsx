@@ -35,7 +35,7 @@ const Table = () => {
             bpDate: date,
             comments: 26,
             sentDate: date,
-            visitDate: date,
+            visitDate: date, 
           },
         ]);
       });
