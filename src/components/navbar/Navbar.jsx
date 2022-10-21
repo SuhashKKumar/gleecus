@@ -19,7 +19,7 @@ const Navbar = () => {
         </a>
 
         <a className="nav-item" onClick={() => setDropDown(!dropdown)}>
-          Dropdown <span>🔽</span>
+          Admin <span>🔽</span>
         </a>
         {dropdown ? (
           <ul className="dropdown-menu">
