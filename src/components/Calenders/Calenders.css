@@ -1,27 +1,38 @@
-@import url('https://cdn.syncfusion.com/ej2/material.css');
+@import url("https://cdn.syncfusion.com/ej2/material.css");
 
-.calender-container{
-    
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    
+.calender-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.calender{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.calender {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.calender h1{
-
-    font-size: 1rem;
+.calender h1 {
+  font-size: 1rem;
 }
-.calender h2{
-    font-weight: 500;
-    font-size: 0.6rem;
+.calender h2 {
+  font-weight: 500;
+  font-size: 0.6rem;
 }
-.calender-btn{
-    background:none;
-    border: none;
-    font-size: 1.4rem;
+.calender-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+}
+@media only screen and (min-width: 992px) {
+  .calender-container {
+    gap: 1.5rem;
+  }
+  .calender h1 {
+    font-size: 1.2rem;
+  }
+  .calender h2 {
+    font-size: 0.7rem;
+  }
+  .calender-btn {
+    font-size: 1.6rem;
+  }
 }

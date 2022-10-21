@@ -17,6 +17,29 @@ select{
     border: none;
     border-radius: 0.7rem;
 }
-select option{
-    /* background-color: black; */
+@media only screen and (min-width: 1200px) {
+    .graph-container{
+        background-color: white;
+        width: 700px;
+        height: 541px;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    .options-container{
+        margin-bottom: 1rem;
+        gap: 1rem;
+    }
 }
+@media only screen and (min-width: 600px) {
+    .options-container{
+        margin-bottom: 1rem;
+        gap: 1rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    
+    .options-container{
+        margin-bottom: 1rem;
+        gap: 1rem;
+    }
+  }

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
 import Navbar from './components/navbar/Navbar'
 import PendingOrders from './components/pendingOrders/PendingOrders'
 import Sent from './components/sent/Sent'
+import './App.css'
 
 function App() {
   

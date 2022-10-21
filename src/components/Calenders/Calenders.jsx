@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./Calenders.css";
 import { CalendarComponent } from "@syncfusion/ej2-react-calendars";
+import "./Calenders.css";
 
 const Calenders = () => {
   const startCalenderStyle = {

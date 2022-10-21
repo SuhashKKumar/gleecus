@@ -1,7 +1,7 @@
 import React from "react";
-import "./PreMain.css";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import "./PreMain.css";
 
 const PreMain = ({ sent }) => {
   return (
